@@ -28,8 +28,6 @@ public class ABB<T extends Comparable<T>> implements Conjunto<T> {
     public int cardinal() {
         ABB_Iterador iterador = new ABB_Iterador();
 
-        // if (iterador._actual._valor == null) return 0;
-
         int cant = 0;
         while (iterador.haySiguiente()) {
             iterador.siguiente();
